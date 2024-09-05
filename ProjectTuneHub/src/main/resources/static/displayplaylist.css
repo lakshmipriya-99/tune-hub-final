@@ -1,0 +1,100 @@
+/* index.css */
+
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background: #121212; 
+    color: #fff; 
+    margin-top: 130px;
+    margin-bottom:130px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.8); 
+    padding: 40px;
+    border-radius: 10px;
+    border: 1px solid #333; 
+}
+
+/* Heading styling */
+h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+    background-color: #ff0050; 
+    color: #fff; 
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table thead {
+    background: #ff0050; 
+    color: #fff;
+}
+
+table thead th {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #333;
+}
+
+table tbody tr {
+    border-bottom: 1px solid #333;
+}
+
+table tbody td {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #333;
+}
+
+table tbody tr:nth-child(even) {
+    background: #222;
+}
+
+table tbody tr:hover {
+    background: #333;
+}
+
+/* Unordered list and list item styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+
+audio {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Container for playlists */
+.container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #333;
+}

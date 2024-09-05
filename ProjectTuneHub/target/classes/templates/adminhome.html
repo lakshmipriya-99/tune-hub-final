@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>ADMIN</title>
+<link rel=stylesheet type=text/css th:href="@{/adminhome.css}">
+</head>
+<body>
+	<div class="container">
+        <h2>ADMIN HOME PAGE</h2>
+        
+        <form action="newsong">
+            <input type="submit" value="ADD SONGS">
+        </form>
+        
+        <form action="viewsongs">
+            <input type="submit" value="VIEW SONGS">
+        </form>
+
+        <form action="createplaylist">
+            <input type="submit" value="CREATE PLAYLIST">
+        </form>
+        
+        <form action="viewplaylists">
+            <input type="submit" value="VIEW PLAYLIST">
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,103 @@
+/* registration.css */
+
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 20px;
+    margin-top: 150px;
+    margin-bottom:150px;
+    background: #121212;
+}
+
+
+form {
+    background: rgba(0, 0, 0, 0.9); 
+    padding: 40px;
+    border-radius: 10px;
+    border: 1px solid #333;
+    text-align: left;
+    max-width: 400px; 
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
+
+h2 {
+    color: #fff; 
+    margin-bottom: 30px; 
+    font-size: 28px; 
+    text-align: center; 
+    margin-top: 0; 
+}
+
+
+label {
+    color: #ccc; 
+    font-size: 16px;
+    display: block;
+    margin-top: 20px; 
+}
+
+
+input[type="text"], input[type="email"], input[type="password"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #222;
+    color: #fff;
+    font-size: 16px;
+}
+
+input[type="text"]::placeholder, input[type="email"]::placeholder, input[type="password"]::placeholder, textarea::placeholder {
+    color: #888; 
+}
+
+/* Radio button group styling */
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-item {
+    flex-basis: 45%; 
+}
+
+.radio-group label {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.radio-group input {
+    margin-right: 5px;
+}
+
+
+input[type="submit"] {
+    padding: 15px 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #ff0050; 
+    border: 2px solid #ff0050; 
+    border-radius: 25px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    width: 100%;
+    margin-top: 30px;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff3366; 
+    transform: scale(1.05); 
+}
+
+
+textarea {
+    resize: vertical;
+}
+

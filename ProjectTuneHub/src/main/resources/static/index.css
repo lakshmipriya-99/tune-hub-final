@@ -1,0 +1,91 @@
+/* index.css */
+
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #121212; 
+    position: relative; 
+    overflow: hidden; 
+}
+
+
+.container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8); 
+    padding: 50px; 
+    border-radius: 20px;
+    border: 1px solid #333; 
+    z-index: 2; 
+}
+
+
+h1 {
+    color: #fff; 
+    margin-bottom: 30px; 
+    font-size: 36px; 
+}
+
+
+form {
+    margin: 20px 0; 
+}
+
+
+button {
+    padding: 15px 25px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #ff0050; 
+    border: 2px solid #ff0050; 
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    width: 220px; 
+}
+
+button:hover {
+    background-color: #ff3366; 
+    transform: scale(1.05); 
+}
+
+
+form + form {
+    margin-top: 20px;
+}
+
+/* Background doodles or words */
+.doodle {
+    position: absolute;
+    font-size: 3em;
+    color: rgba(255, 255, 255, 0.3);
+    animation: float 10s infinite ease-in-out;
+}
+
+.doodle1 {
+    top: 10%;
+    left: 15%;
+}
+
+.doodle2 {
+    top: 60%;
+    left: 70%;
+}
+
+.doodle3 {
+    top: 80%;
+    left: 30%;
+}
+
+@keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+    100% { transform: translateY(0); }
+}
+
+
+

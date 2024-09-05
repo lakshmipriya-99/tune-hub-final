@@ -1,0 +1,51 @@
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #121212; 
+}
+
+/* Centering the container */
+.container {
+    background: rgba(0, 0, 0, 0.9); 
+    padding: 40px;
+    border-radius: 10px;
+    border: 1px solid #333;
+    text-align: center;
+    width: 300px; 
+}
+
+/* Heading styling */
+h2 {
+    color: #fff; 
+    margin-bottom: 30px; 
+    font-size: 28px; 
+}
+
+/* Button styling */
+input[type="submit"] {
+    padding: 15px 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #ff0050; 
+    border: 2px solid #ff0050; 
+    border-radius: 25px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    width: 100%; 
+    margin-bottom: 20px; 
+}
+
+input[type="submit"]:hover {
+    background-color: #ff3366; 
+    transform: scale(1.05); 
+}
+
+
+form {
+    margin: 0;
+}

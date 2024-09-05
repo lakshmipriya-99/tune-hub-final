@@ -1,0 +1,92 @@
+/* createplaylist.css */
+
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background: #121212; 
+    color: #fff; 
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Centering the container */
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.8); 
+    padding: 40px;
+    border-radius: 10px;
+    border: 1px solid #333; 
+}
+
+/* Heading styling */
+h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+    background-color: #ff0050; 
+    color: #fff; 
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+label {
+    color: #ccc; 
+    font-size: 16px;
+}
+
+/* Input field styling */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #222;
+    color: #fff;
+    font-size: 16px;
+}
+
+input[type="text"]::placeholder {
+    color: #888; 
+}
+
+/* Checkbox and song list styling */
+.songs {
+    margin: 20px 0;
+}
+
+.song-item {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.song-item input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Submit button styling */
+input[type="submit"] {
+    padding: 15px 25px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #ff0050; 
+    border: 2px solid #ff0050; 
+    border-radius: 25px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    width: 100%;
+    margin-top: 20px;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff3366; 
+    transform: scale(1.05); 
+}
